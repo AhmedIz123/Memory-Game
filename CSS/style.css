@@ -1,0 +1,76 @@
+
+body{
+    background-image: url('https://cdn.akamai.steamstatic.com/steam/apps/1487990/capsule_616x353.jpg?t=1678269206');
+}
+#start{
+    width: 300px;
+    height: 70px;
+    font-size: x-large;
+    margin: 15px 0;
+}
+.content{
+    margin: 30px auto;
+    width: 800px;
+    padding: 30px 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+span p{
+    width: 300px;
+    height: 70px;
+    font-size: x-large;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: none;
+    margin: 15px auto;
+}
+#loser{
+    width: 300px;
+    height: 70px;
+    font-size: x-large;
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: none;
+    margin: 15px auto;
+}
+#winner{
+    width: 300px;
+    height: 70px;
+    font-size: x-large;
+    background: green;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: none;
+    margin: 15px auto;
+}
+div.jeu {
+height: 520px;
+width: 520px;
+margin: auto;
+}
+div.case {
+height: 100px;
+width: 100px;
+border: 1px solid black;
+float: left;
+margin: 10px;
+background-color: #9999FF;
+cursor: pointer;
+}
+img {
+height: 100px;
+width: 100px;
+visibility: visible;
+}
+hr {
+clear: both;
+visibility: hidden;
+}
